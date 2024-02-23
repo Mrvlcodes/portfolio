@@ -342,10 +342,10 @@ h4{
   margin-bottom: 2.5rem;
 }
 .center{
-  margin-right: 30rem;
+  margin-right: 25rem;
   display: grid;
-  grid-template-columns: 60% 60%;
-  grid-template-rows: 60% 60%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 .wrapper {
   border: 1px solid #dbc4695e;
