@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@300;400;700&family=Permanent+Marker&family=Poor+Story&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/56af9c19f7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <aside>
+    <label for="theme" class="theme">
+      <span class="theme__toggle-wrap">
+        <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark">
+        <span class="theme__fill"></span>
+        <span class="theme__icon">
+          <span class="theme__icon-part"></span>
+          <span class="theme__icon-part"></span>
+          <span class="theme__icon-part"></span>
+          <span class="theme__icon-part"></span>
+          <span class="theme__icon-part"></span>
+          <span class="theme__icon-part"></span>
+          <span class="theme__icon-part"></span>
+          <span class="theme__icon-part"></span>
+          <span class="theme__icon-part"></span>
+        </span>
+      </span>
+    </label>
+  </aside>
+
+  <section class="section-one" id="section-one">
+    <div class="image-container">
+      <img src="./IMG_3441-Photoroom.png-Photoroom.png" alt="my picture"/>
+    </div>
+    <div class="section-one-text">
+      <h1><span class="line">-</span>I'M MARVELLOUS UGOCHUKWU.</h1>
+      <h2>WEB DEVELOPER</h2>
+      <p>I'm a nigerian based full stack web developer, focused on crafting clean and user-friendly experiences. I am passionate about building excellent software that improves the lives of those around me.</p>
+      <div class="icon-button" id="myButton">
+        MORE ABOUT ME
+        <img src="icons8-arrow-30.png" />
+      </div>
+    </div>
+    <div class="icons-container">
+      <div class="icons">
+          <a href="#section-one"><i class="fa-solid fa-house-user" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+      <div class="icons">
+          <a href="#section-two"><i class="fa-solid fa-address-card" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+      <div class="icons">
+          <a href="#section-three"><i class="fa-solid fa-briefcase" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+      <div class="icons">
+          <a href="#section-four"><i class="fa-solid fa-file-signature" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+      <div class="icons">
+          <a href="#section-five"><i class="fa-solid fa-blog" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- section two -->
+   <section class="section-two" id="section-two"> 
+    <h3>ABOUT <span class="about">ME</span></h3>
+    <div class="section-two-container">
+      <div class="left">
+        <h4>PERSONAL INFOS</h4>
+        <p><span class="grey">First Name: </span>Marvellous</p>
+        <p><span class="grey">Age: </span>18 Years</p>
+        <p><span class="grey">Freelance: </span>Available</p>
+        <p><span class="grey">Phone: </span>+2349110220397</p>
+        <p><span class="grey">Youtube: </span>LearnWithMarv</p>
+      </div>
+      <div class="right">
+        <p><span class="grey">Last Name: </span>Ugochukwu</p>
+        <p><span class="grey">Nationality: </span>Nigerian</p>
+        <p><span class="grey">Address: </span>Nigeria</p>
+        <p><span class="grey">Email: </span>Marvugochukwu@gmail.com</p>
+        <p><span class="grey">Languages: </span>English</p>
+        <div class="icon-button" id="myButton">
+          DOWNLOAD MY CV
+          <img src="icons8-arrow-30.png" />
+        </div>
+      </div>
+      <div class="center">
+        <div class="wrapper">
+          <span class="yellow">2+</span>
+          <p class="center-text">-YEARS OF <span class="block">EXPERIENCE</span></p>
+        </div>
+        <div class="wrapper">
+          <span class="yellow">10+</span>
+          <p class="center-text">-COMPLETE<span class="block">PROJECTS</span></p>
+        </div>
+        <div class="wrapper">
+          <span class="yellow">18+</span>
+          <p class="center-text">-HAPPY <span class="block">CLIENTS</span></p>
+        </div>
+        <div class="wrapper">
+          <span class="yellow">10+</span>
+          <p class="center-text">-AWARDS <span class="block">WON</span></p>
+        </div>
+      </div>
+      <div class="icons-container">
+        <div class="icons">
+            <a href="#section-one"><i class="fa-solid fa-house-user" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+        <div class="icons">
+            <a href="#section-two"><i class="fa-solid fa-address-card" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+        <div class="icons">
+            <a href="#section-three"><i class="fa-solid fa-briefcase" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+        <div class="icons">
+            <a href="#section-four"><i class="fa-solid fa-file-signature" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+        <div class="icons">
+            <a href="#section-five"><i class="fa-solid fa-blog" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-two-one">
+    <h4 class="myskills">MY SKILLS</h4>
+    <div class="skills">
+      <div class="skills-section">
+        <i class="fa-brands fa-html5" id="html"></i>
+        <p>HTML5</p>
+      </div>
+      <div class="skills-section">
+        <i class="fa-brands fa-css3-alt" id="css"></i>
+        <p>CSS</p>
+      </div>
+      <div class="skills-section">
+        <i class="fa-brands fa-js" id="js"></i>
+        <p>JAVASCRIPT</p>
+      </div>
+      <div class="skills-section">
+        <i class="fa-brands fa-react" id="react"></i>
+        <p>REACT</p>
+      </div>
+      <div class="skills-section">
+        <i class="fa-brands fa-node-js" id="node"></i>
+        <p>NODE</p>
+      </div>
+      <div class="skills-section">
+        <i class="fa-brands fa-aws" id="aws"></i>
+        <p>AWS</p>
+      </div>
+      <div class="skills-section">
+        <i class="fa-brands fa-bootstrap" id="bootstrap"></i>
+        <p>BOOTSTRAP</p>
+      </div>
+      <div class="skills-section">
+        <i class="fa-brands fa-python" id="python"></i>
+        <p>PYTHON</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="section-three">
+  <div class="education-row">
+      <div class="education-column">
+          <h3 class="title">Education</h3>
+
+          <div class="education-box">
+              <div class="education-content">
+                  <div class="content">
+                      <div class="year"><i class="fa-solid fa-calendar-days"></i>2015 - 2020</div>
+                      <h4>High School Degree</h4>
+                      <p>Studied in the faculty of science in Resonance Model Secondary School. At this time I took up an extracurriculum course -Data Processing</p>
+                  </div>
+              </div>
+
+              <div class="education-content">
+                  <div class="content">
+                      <div class="year"><i class="fa-solid fa-calendar-days"></i>JAN 2023 - SEPT 2023</div>
+                      <h4>Completed My Online Diploma </h4>
+                      <p>Studied web development - The curriculum included; Basics of computer programming, Core Web Development Programming Languages (HTML,CSS,JAVASCRIPT,REACT e.t.c)</p>
+                  </div>
+              </div>
+
+              <div class="education-content">
+                  <div class="content">
+                      <div class="year"><i class="fa-solid fa-calendar-days"></i>APR 2023 - 2023</div>
+                      <h4>CERTIFICATE PROGRAMS</h4>
+                      <p>Earned numerous certificates related to my tech field from Google, Alison, sololearn, Linkedin Learning e.t.c</p>
+                  </div>
+              </div>
+
+
+          </div>
+      </div>
+      <div class="education-column">
+          <h3 class="title">Experience</h3>
+
+          <div class="education-box">
+              <div class="education-content">
+                    <div class="content">
+                      <div class="year"><i class="fa-solid fa-calendar-days"></i>2023 - Present
+                      </div>
+                      <h4>Web Developer - Intern</h4>
+                      <p>Currently an intern for Oasis InfoByte.</p>
+                    </div>
+              </div>
+              <div class="education-content">
+                <div class="content">
+                  <div class="year"><i class="fa-solid fa-calendar-days"></i>2024
+                  </div>
+                  <h4>Lead Developer</h4>
+                  <p>Currently pioneering the development of an online educational academy as the lead web developer - Zaliant.org</p>
+                </div>
+          </div>
+          </div>
+      </div>
+      <div class="icons-container">
+        <div class="icons">
+            <a href="#section-one"><i class="fa-solid fa-house-user" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+        <div class="icons">
+            <a href="#section-two"><i class="fa-solid fa-address-card" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+        <div class="icons">
+            <a href="#section-three"><i class="fa-solid fa-briefcase" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+        <div class="icons">
+            <a href="#section-four"><i class="fa-solid fa-file-signature" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+        <div class="icons">
+            <a href="#section-five"><i class="fa-solid fa-blog" id="icon" onclick="toggleActive(this)"></i></a>
+        </div>
+      </div>
+  </section>
+  <!-- contact -->
+  <section class="section-four" id="section-four">
+    <h3>GET IN <span class="about">TOUCH</span></h3>
+    <div class="section-four-container">
+      <div class="lefty">
+        <h4>DON'T BE SHY!</h4>
+        <p>Feel free to get in touch with me. I am always open to discuss new projects, creative ideas or opportunities to be part of your visions.</p>
+        <table>
+          <tr>
+            <td>
+              <i class="fa-solid fa-address-book" id="contact-icon"></i>
+            </td>
+            <td>
+              <p>ADDRESS POINT</p>
+              <h5>Umuahia, Nigeria</h5>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-message" id="contact-icon"></i>
+            </td>
+            <td>
+              <p>MAIL ME</p>
+              <h5><a href="marvugochukwu@gmail.com">My Mail</a></h5>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-phone-volume" id="contact-icon"></i>
+            </td>
+            <td>
+              <p>CALL ME</p>
+              <h5><a href="tel:+23490110220397">Click to call me</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="contact-form">
+        <form action="contact.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="icons-container">
+      <div class="icons">
+          <a href="#section-one"><i class="fa-solid fa-house-user" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+      <div class="icons">
+          <a href="#section-two"><i class="fa-solid fa-address-card" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+      <div class="icons">
+          <a href="#section-three"><i class="fa-solid fa-briefcase" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+      <div class="icons">
+          <a href="#section-four"><i class="fa-solid fa-file-signature" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+      <div class="icons">
+          <a href="#section-five"><i class="fa-solid fa-blog" id="icon" onclick="toggleActive(this)"></i></a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- secttion five -->
+ <section class="section-five" id="section-five"> 
+    <h3 class="myskills">MY <span class=about>BLOG</span></h3>
+    <div class="section-five-container">
+      <div class="one">
+        <img src="./office.webp" alt="office desk image" id="images">
+        <h6 class="image-text">How to own your audience by creating an email list</h6>
+        <p>In today's digital landscape, owning your audience is crucial for long-term success. One powerful <small><a href="#">See more</a></small></p>
+      </div>
+      <div class="two">
+        <img src="./what-is-deep-learning.png" alt="deep learning image" id="images"/>
+        <h6>Top 10 toolkits for deep learning in 2024</h6>
+        <p>In the rapidly evolving field of deep learning, having the right tools is essential.We try to work towards <small><a href="#">See more</a></small></p>
+      </div>
+      <div class="three">
+        <img src="./coding.jpg" id="images"/>
+        <h6>Everything you need to know about web accessibility</h6>
+        <p>Web accessibility is a fundamental principle that ensures equal access and usability of websites <small><a href="#">See more</a></small></p>
+      </div>
+    </div>
+      <div class="container-two">
+        <div class="four">
+        <img src="./laugh.jpg" id="images"/>
+        <h6>How to inject humor & comedy into your brand</h6>
+        <p>In the competitive world of marketing and branding, standing out from the crowd is essential. One <small><a href="#">See more</a></small></p>
+        </div>
+        <div class="five">
+        <img src="./womenintech.jpeg" id="images"/>
+        <h6>Women in tech: How to achieve success</h6>
+        <p>This guide is designed to provide aspiring women in tech with valuable insights and actionable advice to <small><a href="#">See more</a></small></p>
+        </div>
+        <div class="six">
+        <img src="./shadows.jpg" id="images"/>
+        <h6>Evergreen vs. Tropical content: An overview</h6>
+        <p>When it comes to creating content, understanding the distinction between evergreen and tropical content <small><a href="#">See more</a></small></p>
+        </div>
+      </div>
+  </section> -->
+  <script src="script.js"></script>
+</body>
+</html>
